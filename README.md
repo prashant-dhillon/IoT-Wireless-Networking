@@ -156,11 +156,9 @@ $ openssl s_client -connect localhost:8883 -CAfile ./clients/ca.crt
 
 ## Writing client program
 
-In this part of the project, we will use the python3 `paho-mqtt` library we installed in the first part and create our own clients to publish and subscribe to the broker. We are only going to use `Python3`.
+In this part of the project, we will use the python3 `paho-mqtt` library we installed in the first part and create our own clients to publish and subscribe to the broker.
 
-### Getting to know Paho
-
-- Create you virtual environment and install the libraries there
+- Create a virtual environment and install the libraries
 ```
 # Virtual environment
 python3 -m venv pymqtt
