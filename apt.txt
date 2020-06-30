@@ -1,0 +1,5 @@
+openssl
+python3-pip
+python3-venv
+mosquitto
+mosquitto-clients
